@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>App.qml</file>
+        <file>Standby.qml</file>
+        <file>Main.qml</file>
+        <file>HWButtonsSide.qml</file>
+        <file>IEC5009_Standby_Symbol.svg</file>
+        <file>HWButtonsTop.qml</file>
+    </qresource>
+</RCC>
