@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name rn52)(type Legacy)(uri /home/josh/Source/headunit/hw/HeadUnitProto/rn52.lib)(options "")(descr ""))
+  (lib (name pcal9535a)(type Legacy)(uri /home/josh/Source/headunit/hw/HeadUnitProto/pcal9535a.lib)(options "")(descr ""))
+)

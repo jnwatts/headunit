@@ -1,0 +1,265 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L rn52:RN-52-BREAKOUT U?
+U 1 1 5C9F9F7F
+P 2800 3500
+AR Path="/5C9F9F7F" Ref="U?"  Part="1" 
+AR Path="/5C9F9B71/5C9F9F7F" Ref="U?"  Part="1" 
+F 0 "U?" H 2800 3550 50  0000 L CNN
+F 1 "RN-52-BREAKOUT" H 2800 2800 50  0000 L CNN
+F 2 "" H 2950 3950 50  0001 C CNN
+F 3 "" H 2950 3950 50  0001 C CNN
+	1    2800 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L rn52:RN-52-BREAKOUT U?
+U 2 1 5C9F9F86
+P 4800 3400
+AR Path="/5C9F9F86" Ref="U?"  Part="2" 
+AR Path="/5C9F9B71/5C9F9F86" Ref="U?"  Part="2" 
+F 0 "U?" H 4900 3450 50  0000 C CNN
+F 1 "RN-52-BREAKOUT" H 5150 2000 50  0000 C CNN
+F 2 "" H 4950 3850 50  0001 C CNN
+F 3 "" H 4950 3850 50  0001 C CNN
+	2    4800 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L rn52:RN-52-BREAKOUT U?
+U 3 1 5C9F9F8D
+P 6600 3400
+AR Path="/5C9F9F8D" Ref="U?"  Part="3" 
+AR Path="/5C9F9B71/5C9F9F8D" Ref="U?"  Part="3" 
+F 0 "U?" H 6700 3450 50  0000 C CNN
+F 1 "RN-52-BREAKOUT" H 6950 2300 50  0000 C CNN
+F 2 "" H 6750 3850 50  0001 C CNN
+F 3 "" H 6750 3850 50  0001 C CNN
+	3    6600 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L rn52:RN-52-BREAKOUT U?
+U 4 1 5C9F9F94
+P 9400 3400
+AR Path="/5C9F9F94" Ref="U?"  Part="4" 
+AR Path="/5C9F9B71/5C9F9F94" Ref="U?"  Part="4" 
+F 0 "U?" H 9400 3450 50  0000 L CNN
+F 1 "RN-52-BREAKOUT" H 9400 2150 50  0000 L CNN
+F 2 "" H 9550 3850 50  0001 C CNN
+F 3 "" H 9550 3850 50  0001 C CNN
+	4    9400 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0104
+U 1 1 5C9FB46D
+P 3000 3150
+F 0 "#PWR0104" H 3000 3000 50  0001 C CNN
+F 1 "+3.3V" H 3015 3323 50  0000 C CNN
+F 2 "" H 3000 3150 50  0001 C CNN
+F 3 "" H 3000 3150 50  0001 C CNN
+	1    3000 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 3150 3000 3300
+$Comp
+L power:GND #PWR0106
+U 1 1 5C9FB5A9
+P 3000 4550
+F 0 "#PWR0106" H 3000 4300 50  0001 C CNN
+F 1 "GND" H 3005 4377 50  0000 C CNN
+F 2 "" H 3000 4550 50  0001 C CNN
+F 3 "" H 3000 4550 50  0001 C CNN
+	1    3000 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 4350 3000 4550
+NoConn ~ 7650 3700
+NoConn ~ 7650 3800
+$Comp
+L Connector_Generic:Conn_01x03 J?
+U 1 1 5C9FC6CE
+P 4700 1150
+F 0 "J?" H 4780 1192 50  0000 L CNN
+F 1 "Conn_01x03" H 4780 1101 50  0000 L CNN
+F 2 "" H 4700 1150 50  0001 C CNN
+F 3 "~" H 4700 1150 50  0001 C CNN
+	1    4700 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 1050 4500 1050
+Wire Wire Line
+	4300 1150 4500 1150
+Wire Wire Line
+	4500 1250 4400 1250
+Wire Wire Line
+	4400 1250 4400 1400
+$Comp
+L power:GND #PWR0109
+U 1 1 5C9FCA60
+P 4400 1400
+F 0 "#PWR0109" H 4400 1150 50  0001 C CNN
+F 1 "GND" H 4405 1227 50  0000 C CNN
+F 2 "" H 4400 1400 50  0001 C CNN
+F 3 "" H 4400 1400 50  0001 C CNN
+	1    4400 1400
+	1    0    0    -1  
+$EndComp
+Text Label 4300 1050 2    50   ~ 0
+SPKR_L
+Text Label 4300 1150 2    50   ~ 0
+SPKR_R
+NoConn ~ 6400 3500
+NoConn ~ 6400 3600
+NoConn ~ 6400 3700
+NoConn ~ 6400 3800
+NoConn ~ 6400 3900
+NoConn ~ 9200 3500
+NoConn ~ 9200 3600
+NoConn ~ 9200 4200
+NoConn ~ 9200 4300
+NoConn ~ 9200 4400
+NoConn ~ 9200 4500
+Text Label 9100 3950 2    50   ~ 0
+UART_TX
+Text Label 9100 4050 2    50   ~ 0
+UART_RX
+Text GLabel 1400 1500 0    50   Output ~ 0
+RPI_UART_TX
+Text GLabel 1400 1150 0    50   Input ~ 0
+RPI_UART_RX
+Wire Wire Line
+	9100 3950 9200 3950
+Wire Wire Line
+	9100 4050 9200 4050
+Wire Wire Line
+	1500 1500 1400 1500
+Wire Wire Line
+	1400 1150 1500 1150
+Text Label 2050 1150 0    50   ~ 0
+UART_TX
+Text Label 2050 1500 0    50   ~ 0
+UART_RX
+Wire Wire Line
+	2050 1500 1900 1500
+Wire Wire Line
+	2050 1150 1900 1150
+Wire Wire Line
+	2450 3850 2600 3850
+$Comp
+L Jumper:Jumper_2_Open JP?
+U 1 1 5CA0E4AA
+P 1700 1150
+F 0 "JP?" H 1700 1385 50  0000 C CNN
+F 1 "Jumper_2_Open" H 1700 1294 50  0000 C CNN
+F 2 "" H 1700 1150 50  0001 C CNN
+F 3 "~" H 1700 1150 50  0001 C CNN
+	1    1700 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:Jumper_2_Open JP?
+U 1 1 5CA0EB4A
+P 1700 1500
+F 0 "JP?" H 1700 1735 50  0000 C CNN
+F 1 "Jumper_2_Open" H 1700 1644 50  0000 C CNN
+F 2 "" H 1700 1500 50  0001 C CNN
+F 3 "~" H 1700 1500 50  0001 C CNN
+	1    1700 1500
+	1    0    0    -1  
+$EndComp
+NoConn ~ 9200 3850
+$Comp
+L power:+3.3V #PWR0110
+U 1 1 5CA16017
+P 3050 1000
+F 0 "#PWR0110" H 3050 850 50  0001 C CNN
+F 1 "+3.3V" H 3065 1173 50  0000 C CNN
+F 2 "" H 3050 1000 50  0001 C CNN
+F 3 "" H 3050 1000 50  0001 C CNN
+	1    3050 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CA160DB
+P 3050 1250
+F 0 "R?" H 3120 1296 50  0000 L CNN
+F 1 "10k" H 3120 1205 50  0000 L CNN
+F 2 "" V 2980 1250 50  0001 C CNN
+F 3 "~" H 3050 1250 50  0001 C CNN
+	1    3050 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9200 3750 9100 3750
+Text Label 9100 3750 2    50   ~ 0
+UART_RTS
+Text Label 3150 1550 0    50   ~ 0
+UART_RTS
+Wire Wire Line
+	3050 1400 3050 1550
+Wire Wire Line
+	3050 1550 3150 1550
+Wire Wire Line
+	3050 1000 3050 1100
+Wire Wire Line
+	7750 3500 7650 3500
+Wire Wire Line
+	7750 3600 7650 3600
+Text Label 7750 3500 0    50   ~ 0
+SPKR_L
+Text Label 7750 3600 0    50   ~ 0
+SPKR_R
+Wire Wire Line
+	4600 3650 4450 3650
+Text GLabel 4450 3650 0    50   Output ~ 0
+RN52_INT
+Text GLabel 2450 3850 0    50   Input ~ 0
+RN52_PWREN
+Text GLabel 4450 3850 0    50   Input ~ 0
+RN52_FRST
+Wire Wire Line
+	4450 3850 4600 3850
+Text GLabel 4450 4250 0    50   Input ~ 0
+~RN52_CMD
+Wire Wire Line
+	4450 4250 4600 4250
+NoConn ~ 6400 4050
+NoConn ~ 6400 4150
+NoConn ~ 6400 4250
+NoConn ~ 6400 4350
+Text Notes 7350 7500 0    50   ~ 0
+RN52
+NoConn ~ 4600 3500
+NoConn ~ 4600 3750
+NoConn ~ 4600 3950
+NoConn ~ 4600 4050
+NoConn ~ 4600 4150
+NoConn ~ 4600 4350
+NoConn ~ 4600 4450
+NoConn ~ 4600 4550
+NoConn ~ 4600 4650
+NoConn ~ 5850 3500
+NoConn ~ 5850 3600
+Text Notes 1250 3300 0    50   ~ 0
+Not clear if PWREN will also power *off*...\nmay need a load switch.
+$EndSCHEMATC

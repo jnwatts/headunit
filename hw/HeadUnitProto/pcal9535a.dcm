@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PCAL9535A
+D 16-bit I2C-bus I/O port with interrupt and Agile I/O
+K nxp parallel port
+F https://www.nxp.com/docs/en/data-sheet/PCAL9535A.pdf
+$ENDCMP
+#
+#End Doc Library
